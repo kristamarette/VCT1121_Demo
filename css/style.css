@@ -5,17 +5,26 @@
 }
 
 div {
-    background-color: black;
+    background-image: linear-gradient(to right, red, orange, yellow, green, blue, violet);
     width: 100vw;
     height: 100vh;
     display: flex;
     align-items: center;
-    
+
 }
 
 h1 {
-    color: aquamarine;
+    color: white;
+    text-shadow: 2px 2px 4px #000;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 5em;
+    position: relative;
+    animation: moveit 5s infinite;
+
+}
+
+@keyframes moveit {
+    from {left: 10vw;}
+    to {left: 50vw;}
 
 }
