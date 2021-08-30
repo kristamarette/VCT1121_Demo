@@ -13,18 +13,17 @@ div {
     
 }
 
-h1 {
+h1 {t
     color: white;
     text-shadow: 2px 2px 4px #000000;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 5em;
     position: relative;
     animation: moveit 5s infinite;
-  }
+}
   
-  @keyframes moveit {
+@keyframes moveit {
     from {left: 10vw;}
     to {left: 50vw;}
   
-  }
 }
