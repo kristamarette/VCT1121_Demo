@@ -4,8 +4,8 @@
 
 }
 
-div {
-    background-image: linear-gradient(to right, red, orange, yellow, green, blue, violet);
+div.one {
+    background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -27,4 +27,9 @@ h1 {
     from {left: 10vw;}
     to {left: 50vw;}
 
+}
+
+img.picture {
+    height: 25%;
+    width: auto;
 }
