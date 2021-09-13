@@ -4,6 +4,7 @@
 
 }
 
+
 div.one {
     background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
     width: 100vw;
@@ -15,14 +16,14 @@ div.one {
 
 h1 {
     color: white;
+
     text-shadow: 2px 2px 4px #000;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 5em;
     position: relative;
     animation: moveit 5s infinite;
 
-}
-
+  
 @keyframes moveit {
     from {left: 10vw;}
     to {left: 50vw;}
@@ -32,4 +33,5 @@ h1 {
 img.picture {
     height: 25%;
     width: auto;
+
 }
